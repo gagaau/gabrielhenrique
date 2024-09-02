@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Quem sou eu?</a></li>
+            <li><a href="formacao.html">Formação Educacional</a></li>
+            <li><a href="portfolio.html">Portfólio</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    <header><h2>Contato</h2></header>
+    <main>
+   <form action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="access_key" value="7660cf6e-7ff3-45f1-9de4-c37589bf048f">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email"><br>
+
+        <label for="phone">Número:</label>
+        <input type="tel" id="phone"><br>
+
+        <label for="comment">Mensagem:</label>
+        <textarea id="comment" rows="3" cols="25"></textarea><br>
+
+        <input type="reset">
+        <input type="submit" value="Enviar">
+
+   </form>
+
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
